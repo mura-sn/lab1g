@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Joanna Gulle</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e321867b56.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/logo.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="https://mura-sn.github.io/elec2act1b/">Switch Portfolio</a></li>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Layout Designer</p>
+                <h1>Hi! I am <span>Joanna</span> Gulle. <br> From Philippines</h1>
+            </div>
+        </div>
+    </div>
+    <!--------------------------------about section------------------------------------>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+            <img src="Images/user.jpg">
+            </div>
+            <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>I am Mary Joanna May Gulle, a third-year Bachelor of Science in Information Technology student at Bohol Island State University - Balilihan Campus. I enjoy learning about technology and finding ways to use it to solve problems. I am hardworking and eager to grow in the field of IT.</p>
+        <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+        </div>
+        <div class="tab-contents active-tab" id="skills">
+            <ul>
+<li>Layout Design</li>
+<li>Photography</li>
+<li>Copywriting</li>
+<li>Video Editing</li>
+<li>Branding</li>
+            </ul>
+        </div>
+        <div class="tab-contents" id="experience">
+            <ul>
+                <li><span>2022 - 2024</span><br>Freelance Gaming Layout Artist</li>
+                <li><span>2023 - 2024</span><br>Become a Secretary at THE LEGION</li>
+                <li><span>2023 - 2024</span><br>Layout Artist at School Publication</li>
+            </ul>
+        </div>
+        <div class="tab-contents" id="education">
+            <ul>
+                <li><span>2024 - Current</span><br>Information Technology at BISU BALILIHAN</li>
+<li><span>High-School</span><br>ABM student at Immaculate Mary Academy</li>
+<li><span>Elementary</span><br>Catigbian Central Elementary School</li>
+            </ul>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+<!--------------------------------------services section---------------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+<div>
+    <i class="fa-solid fa-pen-nib"></i>
+<h2>Visual Identity Design</h2>
+<p>Focuses on the creation of a brand’s visual elements. Includes logos, color palettes, typography, and brand guidelines. Examples: Corporate branding, business cards, letterheads.
+</p>
+<a href="#">Learn more.</a>
+</div>
+<div>
+    <i class="fa-solid fa-code"></i>
+    <h2>Publication Design</h2>
+    <p>Focuses on layout and design for print and digital publications. Examples: Magazines, newspapers, books, catalogs, and e-books.
+    </p>
+    <a href="#">Learn more.</a>
+    </div>
+    <div>
+        <i class="fa-solid fa-crop"></i>
+        <h2>Typography Design</h2>
+        <p>Focuses on the creative arrangement of text for visual impact. Includes font design, custom lettering, and type treatments.
+            Examples: Posters, title sequences, branding materials.</p>
+        <a href="#">Learn more.</a>
+        </div>
+        </div>
+    </div>
+</div>
+<!------------------------------portfolio for showcasing works/samples------------------------->
+<div id="portfolio">
+<div class="container">
+    <h1 class="sub-title">My Works</h1>
+    <div class="work-list">
+<div class="work">
+<img src="Images/work-1.png.jpg">
+<div class="layer">
+    <h3>Holiday Poster</h3>
+    <P>Carlos P. Garcia Day is a special non-working holiday in the Philippines celebrated annually on November 4. It honors Carlos P. Garcia, the 8th President of the Philippines, who served from 1957 to 1961.</P>
+<a href="#"><i class="fa-solid fa-link"></i></a>
+</div>
+</div>
+<div class="work">
+    <img src="Images/work-2.png.jpg">
+    <div class="layer">
+        <h3>Halloween Poster</h3>
+        <P>All Souls’ Day, observed on November 2, is a Christian holiday dedicated to praying for the souls of the departed, particularly those in purgatory. It follows All Saints’ Day on November 1 and is part of the liturgical tradition of honoring the dead.</P>
+    <a href="#"><i class="fa-solid fa-link"></i></a>
+    </div>
+    </div>
+    <div class="work">
+        <img src="Images/work-3.png.jpg">
+        <div class="layer">
+            <h3>Monthly Horoscope</h3>
+            <P>Monthly horoscope predictions that provide simple and clear guidance about love, career, health, and personal growth. Each forecast is designed to help readers understand what’s ahead and feel inspired for the month.</P>
+        <a href="#"><i class="fa-solid fa-link"></i></a>
+        </div>
+        </div>
+        </div>
+        </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+</div>
+</div>
+<!--------------------------------contact information section--------------------->
+<div id="contact">
+    <div class="container">
+        <div class="contact-center">
+            <h1 class="sub-title">Contact</h1>
+            <div class="typeofcontact">
+                <div>
+                    <h2><i class="fa-regular fa-envelope"></i><br>Email</h2>
+                    <p>Mj.joannagulle14@gmail.com</p>
+                    
+                </div>
+                <div>
+                    <h2><i class="fa-solid fa-phone"></i><br>Phone Number</h2>
+                    <p>09155490423</p>
+                    
+                </div>
+                <div>
+                    
+                    <h2><i class="fa-brands fa-facebook"></i><br>FaceBook</h2>
+                    <p>Mary Joanna May Gulle</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
+<footer id="footer">
+    <p>&copy; 2024 Mary Joanna May Gulle. All rights reserved.</p>
+    <div class="social-icons">
+        <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-twitter"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-telegram"></i></a>
+    </div>
+</footer> 
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+        for (tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+var sidemenu = document.getElementById("sidemenu");
+
+function openmenu(){
+    sidemenu.style.right="0";
+
+}
+function closemenu(){
+    sidemenu.style.right="-200px";
+    
+}
+
+</script>
+
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwfMmeYadR7go9-XrSxS0B8X9qXjv_DLMniAqDu1uxymaZCziitTRzVj7UozbvZzXaI/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },50000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
